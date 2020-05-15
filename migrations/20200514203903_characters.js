@@ -8,5 +8,5 @@ exports.up = function(knex) {
 };
 
 exports.down = function(knex) {
-    return knex.schema.dropTableIfExits('Characters');
+    return knex.schema.dropTableIfExists('Characters');
 };

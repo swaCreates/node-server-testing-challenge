@@ -9,7 +9,7 @@ module.exports = {
       filename: './data/characters.db3'
     }
   },
-  test: {
+  testing: {
     client: 'sqlite3',
     useNullAsDefault: true,
     connection: {
